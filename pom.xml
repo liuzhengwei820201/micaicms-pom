@@ -1,8 +1,8 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>org.micaicms</groupId>
-	<artifactId>micaicms-pom</artifactId>
+	<groupId>com.yufei</groupId>
+	<artifactId>yufei-pom</artifactId>
 	<version>1.0</version>
 	<packaging>pom</packaging>
 
@@ -28,7 +28,7 @@
 		<jackson-databind.version>2.5.1</jackson-databind.version>
 
 		<!-- Spring -->
-		<spring-framework.version>4.0.6.RELEASE</spring-framework.version>
+		<spring-framework.version>4.2.5.RELEASE</spring-framework.version>
 
 		<!-- 面向切面工具 -->
 		<aspectjweaver.version>1.8.1</aspectjweaver.version>
@@ -43,7 +43,7 @@
 
 		<!-- 数据库开发工具 -->
 		<!-- 1.tomcat-jdbc -->
-		<tomcat-jdbc.version>7.0.52</tomcat-jdbc.version>
+		<tomcat-jdbc.version>7.0.56</tomcat-jdbc.version>
 		<!-- 2.Mybatis -->
 		<mybatis.version>3.2.2</mybatis.version>
 		<mybatis-paginator.version>1.2.15</mybatis-paginator.version>
